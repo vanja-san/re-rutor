@@ -7,7 +7,7 @@
 			"text": "$(sync) Watch Stylus",
 			"tooltip": "Компиляция .styl в .css после сохранения",
 			"commandType": "exec",
-			"command": "stylus -w ./src/index.styl -o ./dist/re-rutor.user.css",
+			"command": "stylus -w src/index.styl -o dist/re-rutor.user.css",
 			"alignment": "right",
 			"skipTerminateQuickPick": false
 		}
