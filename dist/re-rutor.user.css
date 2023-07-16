@@ -1,10 +1,11 @@
-#news_table {
-  display: none;
-}
-#all,
-div#ws div#content {
-  max-width: 1285px;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
+/* ==UserStyle==
+@name           RE-RUTOR
+@namespace      github.com/vanja-san/re-rutor
+@version        0.0.1
+@description    Redesigne rutor theme
+@author         vanja-san
+==/UserStyle== */
+@-moz-document domain("rutor.info"),
+domain("rutor.is") {
+  @import url(https://vanja-san.github.io/re-rutor/dist/re-rutor.user.css);
 }
