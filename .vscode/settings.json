@@ -11,5 +11,9 @@
   },
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  // Использование ':' в качестве разделителя между свойством и значением
+  "languageStylus.useSeparator": true, // по умолчанию
+  // Переключить совпадения для встроенных функций Stylus при автозаполнении
+  "languageStylus.useBuiltinFunctions": true // по умолчанию
 }
