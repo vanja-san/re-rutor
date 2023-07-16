@@ -7,5 +7,5 @@
 ==/UserStyle== */
 @-moz-document domain("rutor.info"),
 domain("rutor.is") {
-  @import url(https://vanja-san.github.io/re-rutor/dist/re-rutor.user.css);
+  @import url(https://vanja-san.github.io/re-rutor/dist/main.css);
 }
