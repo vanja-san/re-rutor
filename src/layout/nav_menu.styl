@@ -1,8 +1,15 @@
 @require '../variables.styl'
 
+#all, div#ws div#content {
+  max-width: 1285px
+  margin: 0 auto
+  left: 0
+  right: 0
+}
+
 #all {
-	background-color: $two-bg
-	border-bottom: 2px solid #0000002B
+	background-color: $fg
+	border-bottom: 2px solid hsla(0, 0%, 0%, 0.308)
 	width: 100% !important
 	max-width: 100% !important
 	height: 45px
@@ -17,7 +24,8 @@
 		float: right
 		margin-right: 7%
 		
-		> a, #menu_right_side {
+		> a,
+		#menu_right_side {
 			display: flex
 			align-items: center
 		}

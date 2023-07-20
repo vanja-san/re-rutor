@@ -24,9 +24,16 @@
   font-family: 'Noto Sans';
   padding-bottom: 15px;
 }
+#all,
+div#ws div#content {
+  max-width: 1285px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
 #all {
   background-color: #f8f8f8;
-  border-bottom: 2px solid rgba(0,0,0,0.169);
+  border-bottom: 2px solid rgba(0,0,0,0.308);
   width: 100% !important;
   max-width: 100% !important;
   height: 45px;
@@ -45,11 +52,4 @@
 #all #menu #menu_right_side {
   display: flex;
   align-items: center;
-}
-#all,
-div#ws div#content {
-  max-width: 1285px;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
 }
