@@ -12,12 +12,12 @@
   height: 45px;
   margin-left: 16%;
 }
-#up a {
+#up #logo a {
   display: flex;
   height: 100%;
   align-items: center;
 }
-#up a::before {
+#up #logo a::before {
   content: "rutor";
   font-size: 4em;
   font-weight: bold;
