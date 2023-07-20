@@ -1,6 +1,51 @@
 #news_table {
   display: none;
 }
+#up {
+  width: auto;
+  height: auto;
+}
+#up img {
+  display: none;
+}
+#up #logo {
+  height: 45px;
+  margin-left: 16%;
+}
+#up a {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+#up a::before {
+  content: "rutor";
+  font-size: 4em;
+  font-weight: bold;
+  font-family: 'Noto Sans';
+  padding-bottom: 15px;
+}
+#all {
+  background-color: #f8f8f8;
+  border-bottom: 2px solid rgba(0,0,0,0.169);
+  width: 100%;
+  max-width: 100%;
+  height: 45px;
+  margin: 0;
+  padding: 10px;
+}
+#all #menu {
+  display: flex;
+  background-image: none;
+  width: 1000px;
+  height: 45px;
+  float: right;
+  margin-right: 7%;
+}
+#all #menu > a,
+#all #menu #menu_right_side {
+  display: flex;
+  align-items: center;
+}
 #all,
 div#ws div#content {
   max-width: 1285px;
