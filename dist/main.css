@@ -27,8 +27,8 @@
 #all {
   background-color: #f8f8f8;
   border-bottom: 2px solid rgba(0,0,0,0.169);
-  width: 100%;
-  max-width: 100%;
+  width: 100% !important;
+  max-width: 100% !important;
   height: 45px;
   margin: 0;
   padding: 10px;
