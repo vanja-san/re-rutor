@@ -1,15 +1,15 @@
 {
-	"skipTerminateQuickPick": true,
-	"skipSwitchToOutput": false,
-	"skipErrorMessage": true,
-	"commands": [
-		{
-			"text": "$(sync) Watch Stylus",
-			"tooltip": "Компиляция .styl в .css после сохранения",
-			"commandType": "exec",
-			"command": "stylus -w src/index.styl -o dist/main.css",
-			"alignment": "right",
-			"skipTerminateQuickPick": false
-		}
-	]
+  "skipTerminateQuickPick": true,
+  "skipSwitchToOutput": false,
+  "skipErrorMessage": true,
+  "commands": [
+    {
+      "text": "$(sync) Watch Stylus",
+      "tooltip": "Компиляция .styl в .css после сохранения",
+      "commandType": "exec",
+      "command": "stylus -w src/katorina/style.styl -o css/katorina/katorina.user.css",
+      "alignment": "right",
+      "skipTerminateQuickPick": false
+    }
+  ]
 }
