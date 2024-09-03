@@ -4,80 +4,11 @@
 @version        1.0.0
 @description    Change some elements in style kickasstorrents
 @author         vanja-san
+@homepageURL    https://github.com/vanja-san/userStyles
+@supportURL     https://github.com/vanja-san/userStyles/issues
+@updateURL      https://vanja-san.github.io/userStyles/css/katorina/katorina.user.css
 @preprocessor   stylus
 ==/UserStyle== */
 @-moz-document domain("kickasstorrents.to") {
-  .sidebarCell,
-  .seedLeachContainer,
-  .sharingWidgetBox > .widgetName,
-  #desc > p > br,
-  .buttonsline.downloadButtonGroup,
-  .line50perc.showmore.botmarg0,
-  footer {
-    display: none !important;
-  }
-  body {
-    width: 70vw;
-    margin: 0 auto;
-  }
-  #wrapper {
-    margin: 0.45rem 0;
-  }
-  #wrapper #wrapperInner {
-    padding: 0 0 1rem 0;
-  }
-  header {
-    width: 70vw;
-    border-radius: 3px;
-    box-shadow: unset;
-  }
-  #tagcloud {
-    position: relative;
-    background: #ffe8ce;
-    top: 0.45rem;
-    padding: 0.5rem;
-    margin-bottom: 0.45rem;
-    border: 1px solid rgba(0,0,0,0.188);
-    border-radius: 3px;
-  }
-  .mainpart {
-    background: #fff1e8;
-    position: relative;
-    top: 0.5rem;
-    border: 1px solid rgba(0,0,0,0.188);
-    border-radius: 3px;
-  }
-  .mainpart #mainDetailsTable {
-    margin: 3.5rem 0;
-  }
-  .data tr.odd {
-    background: transparent;
-  }
-  .pages {
-    float: left !important;
-  }
-  h1.novertmarg {
-    max-width: 1150px !important;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  h1.novertmarg a {
-    cursor: default;
-  }
-  h1.novertmarg a:hover span {
-    color: #99742e !important;
-  }
-  .sharingWidgetBox {
-    position: absolute;
-    height: 33px;
-    top: 1rem;
-  }
-  .sharingWidgetBox .sharingWidget {
-    width: ;
-    margin: 0;
-  }
-  ul.tabNavigation {
-    text-align: left;
-  }
+  @import url("https://vanja-san.github.io/userStyles/css/katorina/katorina.css");
 }

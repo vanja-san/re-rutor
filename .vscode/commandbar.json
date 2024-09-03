@@ -7,7 +7,7 @@
       "text": "$(sync) Watch Stylus",
       "tooltip": "Компиляция .styl в .css после сохранения",
       "commandType": "exec",
-      "command": "stylus -w src/katorina/style.styl -o css/katorina/katorina.user.css",
+      "command": "stylus -w src/katorina/style.styl -o css/katorina/katorina.css",
       "alignment": "right",
       "skipTerminateQuickPick": false
     }

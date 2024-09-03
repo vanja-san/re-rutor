@@ -1,113 +1,100 @@
-/* ==UserStyle==
-@name           katorina
-@namespace      github.com/vanja-san/mod-kat
-@version        1.0.0
-@description    Change some elements in style kickasstorrents
-@author         vanja-san
-@preprocessor   stylus
-==/UserStyle== */
-
-@-moz-document domain("kickasstorrents.to") {
-  /* Место для CSS кода... */
-
-	.sidebarCell, .seedLeachContainer, .sharingWidgetBox > .widgetName, #desc > p > br,
- 	.buttonsline.downloadButtonGroup, .line50perc.showmore.botmarg0, footer {
-		display: none !important
-	}
-	
-	body {
-		width: 70vw
-		margin: 0 auto
-	}
-	
-	#wrapper {
-		margin: .45rem 0
-		
-		#wrapperInner {
-			padding: 0 0 1rem 0
-		}
-	}
-	
-	header {
-		width: 70vw
-		border-radius: 3px
-		box-shadow: unset
-	}
-	
-	#tagcloud {
-		position: relative
-		background: #FFE8CE
-		top: .45rem
-		padding: .5rem
-		margin-bottom: .45rem
-		border: 1px solid #00000030
-		border-radius: 3px
-	}
-	
-	.mainpart {
-		background: #FFF1E8
-		position: relative
-		top: .5rem
-		border: 1px solid #00000030
-		border-radius: 3px
-		
-		#mainDetailsTable {
-			margin: 3.5rem 0
-		}
-	}
-	
-	.data tr.odd {
-		background: transparent
-	}
-	
-	.pages {
-		float: left !important
-	}
-	
-	h1.novertmarg {
-		max-width: 1150px !important
-		white-space: nowrap
-		overflow: hidden
-		text-overflow: ellipsis
-		
-		a {
-			cursor: default
-			
-			&:hover span {
-				color: #99742e !important
-			}
-		}
-	}
-	
-	.sharingWidgetBox {
-		position: absolute
-		height: 33px
-		top: 1rem
-		
-		.sharingWidget {
-			width: @width
-			margin: 0
-		}
-	}
-	
-	ul.tabNavigation {
-		text-align: left
-	}
-	
-	//.downloadButtonGroup {
-	//	.kaGiantButton {
-	//		background: #f4ebcf
-	//		box-shadow: none
-	//		margin: 0
-	//		width: 33px
-	//		height: 33px
-	//		border: 2px solid #564a25
-	//		border-radius: 5px
-	//		
-	//		i::before {
-	//			color: #a28e4b !important
-	//			margin: .05rem .3rem 
-	//		}
-	//	}
-	//}
+.sidebarCell, .seedLeachContainer, .sharingWidgetBox > .widgetName, #desc > p > br,
+.buttonsline.downloadButtonGroup, .line50perc.showmore.botmarg0, footer {
+	display: none !important
 }
+
+body {
+	width: 70vw
+	margin: 0 auto
+}
+
+#wrapper {
+	margin: .45rem 0
+	
+	#wrapperInner {
+		padding: 0 0 1rem 0
+	}
+}
+
+header {
+	width: 70vw
+	border-radius: 3px
+	box-shadow: unset
+}
+
+#tagcloud {
+	position: relative
+	background: #FFE8CE
+	top: .45rem
+	padding: .5rem
+	margin-bottom: .45rem
+	border: 1px solid #00000030
+	border-radius: 3px
+}
+
+.mainpart {
+	background: #FFF1E8
+	position: relative
+	top: .5rem
+	border: 1px solid #00000030
+	border-radius: 3px
+	
+	#mainDetailsTable {
+		margin: 3.5rem 0
+	}
+}
+
+.data tr.odd {
+	background: transparent
+}
+
+.pages {
+	float: left !important
+}
+	
+h1.novertmarg {
+	max-width: 1150px !important
+	white-space: nowrap
+	overflow: hidden
+	text-overflow: ellipsis
+	
+	a {
+		cursor: default
+		
+		&:hover span {
+			color: #99742e !important
+		}
+	}
+}
+	
+.sharingWidgetBox {
+	position: absolute
+	height: 33px
+	top: 1rem
+	
+	.sharingWidget {
+		width: @width
+		margin: 0
+	}
+}
+	
+ul.tabNavigation {
+	text-align: left
+}
+	
+//.downloadButtonGroup {
+//	.kaGiantButton {
+//		background: #f4ebcf
+//		box-shadow: none
+//		margin: 0
+//		width: 33px
+//		height: 33px
+//		border: 2px solid #564a25
+//		border-radius: 5px
+//		
+//		i::before {
+//			color: #a28e4b !important
+//			margin: .05rem .3rem 
+//		}
+//	}
+//}
